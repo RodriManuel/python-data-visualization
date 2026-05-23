@@ -11,11 +11,10 @@ Este libro introduce el análisis de datos de forma práctica a través de 3 cap
 - Procesamiento de archivos CSV, JSON y GeoJSON
 - Manejo de APIs
 
-## Herramientas
-- Python
-- Matplotlib
-- Plotly
-- Requests
+## Tecnologías utilizadas
+![Static Badge](https://img.shields.io/badge/Python_3.14-3776AB?logo=python&logoColor=FFD43B&color=3776AB) <br>
+![Static Badge](https://img.shields.io/badge/Plotly-white?logo=plotly&logoColor=white&color=7A76FF)
+![Static Badge](https://img.shields.io/badge/Matplotlib-white?logoColor=white&color=365C8B)
 
 ## Proyectos
 - Simulación de caminos aleatorios(**Random Walks**)
@@ -25,21 +24,18 @@ Este libro introduce el análisis de datos de forma práctica a través de 3 cap
 - Análisis de datos con **GitHub API**
 
 ## Estructura de directorios del proyecto
-
+    python-data-visualization/                 
+    ├── data  
+    ├── docs   
+    ├── notebooks
+    │   └── 00_generando_gráficos.ipynb
+    ├── outputs/
+    │   └── images/  
+    ├── src
+    └── tests
 
 ## Ejemplos
+### Primeros gráficos
 ### Random walks
-### Visualización de datos climáticos
-### Mapeo de terremotos a nivel global
-### Análisis de datos con GitHub API
-### Hacker News API
-
 
 ## Conclusión
-A través de estos proyectos aprendí a:
-- Generar y manipular **datasets**
-- Trabajar con varios formatos de datos: CSV, JSON y GeoJSON
-- Consumo y manejo APIs
-- Estructurar un proyecto de datos
-
-Próximo paso: profundizar con **Pandas** y análisis más avanzados
