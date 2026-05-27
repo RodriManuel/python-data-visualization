@@ -7,26 +7,28 @@ Este repositorio contiene mis **prácticas** y **pequeños proyectos** basados e
 
 
 ## Contexto
-Este libro introduce el análisis de datos de forma práctica a través de 3 capítulos:
+Este libro introduce el análisis y la visualización de datos de forma práctica a través de 3 capítulos:
 
+### Chapter 15: Generating Data
 
-- Generación de Datos
-- Visualización de Datos usando librerías de Python
-- Procesamiento de archivos CSV, JSON y GeoJSON
-- Manejo de APIs
+### Chapter 16: Downloading Data
+
+### Chapter 17: Working with APIs
+
 
 ## Tecnologías utilizadas
 ![Python](https://img.shields.io/badge/Python_3.14-3776AB?logo=python&logoColor=FFD43B&color=3776AB) <br>
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-white?logoColor=white&color=365C8B)
 ![Plotly](https://img.shields.io/badge/Plotly-white?logo=plotly&logoColor=white&color=7A76FF) <br>
-![Pathlib](https://img.shields.io/badge/Pathlib-3776AB) <br>
+![Pathlib](https://img.shields.io/badge/Pathlib-3776AB)
+![Requests](https://img.shields.io/badge/Requests-232F3E?&logoColor=white) <br>
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-F37626?&logo=Jupyter&logoColor=white)
 
 ## Proyectos
-- Simulación de caminos aleatorios(**Random Walks**)
-- **Análisis de probabilidad** en dados
+- Simulación de caminos aleatorios (**Random Walks**)
+- **Análisis de probabilidad** con dados
 - **Visualización de datos** climáticos
-- **Mapeo** de datos geográficos sobre terremotos
+- **Mapeo** de datos geográficos
 - Análisis de datos con **GitHub API**
 
 ## Estructura de directorios del proyecto
@@ -34,7 +36,8 @@ Este libro introduce el análisis de datos de forma práctica a través de 3 cap
     ├── data  
     ├── docs   
     ├── notebooks
-    │   └── 00_generando_gráficos.ipynb
+    │   ├── 00_generando_graficos.ipynb
+    │   └── 01_random_walks.ipynb
     ├── outputs/
     │   └── images/  
     ├── readme_figures
@@ -43,12 +46,14 @@ Este libro introduce el análisis de datos de forma práctica a través de 3 cap
 
 ## Ejemplos
 ### Primeros gráficos
-<p align="center" >
+
+<p>
     <img src="outputs/images/line_plot_1.png" alt="line_plot_1">
     <img src="outputs/images/line_plot_2.png" alt="line_plot_2">
     <img src="outputs/images/scatter_plot_1.png" alt="scatter_plot_1">
     <img src="outputs/images/scatter_plot_2.png" alt="scatter_plot_2">    
 </p>
+
 ### Random walks
 
 ## Conclusión
