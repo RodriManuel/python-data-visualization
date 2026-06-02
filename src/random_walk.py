@@ -14,7 +14,7 @@ class RandomWalk:
         return self.x_values
     
     def get_y_values(self):
-        return self.x_values
+        return self.y_values
 
     def trazar_camino(self):
         """Genera cada punto del camino."""
