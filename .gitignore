@@ -1,0 +1,8 @@
+# Ignorar carpetas de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar carpetas de checkpoints de Jupyter Notebooks
+.ipynb_checkpoints/
