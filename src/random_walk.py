@@ -10,6 +10,9 @@ class RandomWalk:
         self.x_values = [0]
         self.y_values = [0]
 
+    def get_number_points(self):
+        return self.number_points
+
     def get_x_values(self):
         return self.x_values
     
